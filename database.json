@@ -1,0 +1,258 @@
+{
+  "requests": [
+    {
+      "id": 1,
+      "userInfo": "Sia bella\r\nmercedess\r\n0610864393\r\nCASABLANCA",
+      "imageUrl": "/uploads/BMW.jpg",
+      "status": "Completed",
+      "createdAt": "2025-07-28T23:24:10.391Z",
+      "updatedAt": "2025-07-28T23:34:10.803Z"
+    },
+    {
+      "id": 2,
+      "userInfo": "Ayoub\r\nAUDI\r\n06102483930\r\nCANADA",
+      "imageUrl": "/uploads/toyota.png",
+      "status": "In Progress",
+      "createdAt": "2025-07-28T23:24:52.367Z",
+      "updatedAt": "2025-07-29T21:27:21.605Z"
+    },
+    {
+      "id": 3,
+      "userInfo": "Mehdi\r\nmercedess\r\n0610864393\r\nCASABLANCA",
+      "imageUrl": "/uploads/purepng.png",
+      "status": "In Progress",
+      "createdAt": "2025-07-28T23:24:10.391Z",
+      "updatedAt": "2025-07-28T23:25:20.171Z"
+    },
+    {
+      "id": 4,
+      "userInfo": "ASSIA OUBELLA \r\nAUDI\r\n06102483930\r\nCANADA",
+      "imageUrl": "/uploads/toyat2.jpg",
+      "status": "In Progress",
+      "createdAt": "2025-07-28T23:24:52.367Z",
+      "updatedAt": "2025-07-28T23:26:21.064Z"
+    },
+    {
+      "id": 5,
+      "userInfo": "assia oubella\r\nmercedess\r\n0610864393\r\nCASABLANCA",
+      "imageUrl": "/uploads/mercedes.jpg",
+      "status": "In Progress",
+      "createdAt": "2025-07-28T23:24:10.391Z",
+      "updatedAt": "2025-07-28T23:25:20.171Z"
+    },
+    {
+      "id": 8,
+      "userInfo": "AYOUB\r\nJEEP\r\n0626789034\r\nCASABLANCA",
+      "imageUrl": "/uploads/photo-1753827385959-731554536.png",
+      "status": "In Progress",
+      "createdAt": "2025-07-29T22:16:25.970Z",
+      "updatedAt": "2025-07-29T22:16:59.451Z"
+    },
+    {
+      "id": 9,
+      "userInfo": "oiueeeepuz\r\nifhkd9\r\n43082\r\nKDJD",
+      "imageUrl": "/uploads/photo-1754091231158-550937157.jpg",
+      "status": "Submitted",
+      "createdAt": "2025-08-01T23:33:51.176Z",
+      "updatedAt": "2025-08-01T23:33:51.176Z"
+    },
+    {
+      "id": 12,
+      "userInfo": "el mahdi bahan \r\nmercedes\r\n0653489723\r\ncanada",
+      "imageUrl": "/uploads/photo-1754329463389-193760922.jpg",
+      "status": "In Progress",
+      "createdAt": "2025-08-04T17:44:23.415Z",
+      "updatedAt": "2025-08-04T17:45:15.501Z"
+    },
+    {
+      "id": 13,
+      "userInfo": "test\r\ntoyota\r\n06345790\r\nCasa",
+      "imageUrl": "/uploads/photo-1754347224693-394383154.jpg",
+      "status": "In Progress",
+      "createdAt": "2025-08-04T22:40:24.727Z",
+      "updatedAt": "2025-08-04T22:41:07.697Z"
+    }
+  ],
+  "operators": [
+    {
+      "id": 1,
+      "name": "Ahmed Mechanic",
+      "phone": "0612345678",
+      "email": "ahmed@roadside.com",
+      "role": "mechanic",
+      "createdAt": "2025-07-28T23:23:09.070Z"
+    },
+    {
+      "id": 3,
+      "name": "Karim",
+      "phone": "0634567890",
+      "email": "karim@roadside.com",
+      "role": "emergency",
+      "createdAt": "2025-07-28T23:23:09.074Z"
+    },
+    {
+      "id": 5,
+      "name": "med",
+      "phone": "0612589302",
+      "email": "hicham@gmail.com",
+      "role": "mechanic",
+      "createdAt": "2025-07-31T23:19:43.076Z"
+    },
+    {
+      "id": 6,
+      "name": "hicham",
+      "phone": "0612589302",
+      "email": "hicham@gmail.com",
+      "role": "mechanic",
+      "createdAt": "2025-07-31T23:19:44.576Z"
+    },
+    {
+      "id": 7,
+      "name": "Zouhair",
+      "phone": "0664873028",
+      "email": "alet@gmail.com",
+      "role": "emergency",
+      "createdAt": "2025-07-31T23:21:48.028Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "email": "admin1@roadside.com",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-07-28T23:23:09.074Z"
+    },
+    {
+      "id": 2,
+      "username": "superadmin",
+      "email": "super@roadside.com",
+      "role": "super_admin",
+      "status": "active",
+      "createdAt": "2025-07-28T23:23:09.074Z"
+    },
+    {
+      "id": 3,
+      "username": "operator1",
+      "email": "op1@roadside.com",
+      "role": "operator",
+      "status": "active",
+      "createdAt": "2025-07-28T23:23:09.074Z"
+    },
+    {
+      "id": 4,
+      "username": "user5",
+      "email": "user5@gmail.com",
+      "role": "admin",
+      "status": "suspended",
+      "createdAt": "2025-07-28T23:29:17.079Z"
+    },
+    {
+      "id": 5,
+      "username": "TEST",
+      "email": "TEST@YAHOO.COM",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2025-08-01T23:35:54.737Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "name": "Assia",
+      "username": "Oubella",
+      "email": "assia.ou26@gmail.com",
+      "phone": "0610472353",
+      "level": "admin",
+      "status": "active",
+      "createdAt": "2025-08-04T22:33:47.488Z"
+    },
+    {
+      "id": 2,
+      "name": "admin 1",
+      "username": "test",
+      "email": "ramo@gmail.com",
+      "phone": "0653598008",
+      "level": "admin",
+      "status": "active",
+      "createdAt": "2025-08-04T22:47:12.279Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "requestId": 1,
+      "operatorId": 1,
+      "userId": 3,
+      "status": "in_progress",
+      "createdAt": "2025-07-28T23:25:20.170Z"
+    },
+    {
+      "id": 2,
+      "requestId": 2,
+      "operatorId": 3,
+      "userId": 1,
+      "status": "completed",
+      "createdAt": "2025-07-28T23:26:21.064Z"
+    },
+    {
+      "id": 3,
+      "requestId": 8,
+      "operatorId": 3,
+      "userId": 3,
+      "status": "in_progress",
+      "createdAt": "2025-07-29T22:16:59.451Z"
+    },
+    {
+      "id": 4,
+      "requestId": 13,
+      "contactId": 1,
+      "userId": 1,
+      "status": "in_progress",
+      "createdAt": "2025-08-04T22:41:07.697Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Operator 1",
+      "phone": "0612345678",
+      "email": "ahmed@roadside.com",
+      "role": "mechanic",
+      "createdAt": "2025-07-28T23:23:09.070Z"
+    },
+    {
+      "id": 5,
+      "name": "Operator 3",
+      "phone": "0612589302",
+      "email": "med@gmail.com",
+      "role": "mechanic",
+      "createdAt": "2025-07-31T23:19:43.076Z"
+    },
+    {
+      "id": 6,
+      "name": "Operator 2",
+      "phone": "0612589302",
+      "email": "hicham@gmail.com",
+      "role": "emergency",
+      "createdAt": "2025-07-31T23:19:44.576Z"
+    },
+    {
+      "id": 10,
+      "name": "oubella assia",
+      "phone": "0610472353",
+      "email": "assia.ou26@gmail.com",
+      "role": "support",
+      "createdAt": "2025-08-02T00:15:28.869Z"
+    },
+    {
+      "id": 11,
+      "name": "Operator 4",
+      "phone": "064354545",
+      "email": "TEST@GMAIL.COM",
+      "role": "support",
+      "createdAt": "2025-08-04T22:42:23.241Z"
+    }
+  ]
+}
