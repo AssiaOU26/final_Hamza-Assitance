@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roadside Rescue</title>
+    <title>Hamza Assistance</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -172,63 +172,14 @@
             <i class="fas fa-cog"></i>
         </div>
 
-        <!-- Navbar -->
-        <nav class="sticky top-0 z-20 glass-effect border-b border-white/20">
-            <div class="container mx-auto px-4 md:px-8">
-                <div class="flex justify-between items-center py-4">
-                    <!-- Logo -->
-                    <!-- <div class="flex items-center space-x-3">
-                        <i class="fas fa-car-burst text-2xl text-white"></i>
-                        <span class="text-xl font-bold text-white">Hamza Assitance</span>
-                    </div> -->
-
-                   <div class="text-center mb-6">
-                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-2 drop-shadow-lg flex justify-center items-center">
-                        <i class="fas fa-car-burst mr-3 text-white"></i>
-                        <span>Hamza Assistance</span>
-                    </h1>
-                    <p class="text-lg text-white/90 drop-shadow-md">Your emergency lifeline on the road.</p>
-                   </div>
-                    
-                    <!-- Navigation Links -->
-                    <!-- <div class="hidden md:flex items-center space-x-8">
-                        <a href="#home" class="text-white/80 hover:text-white transition-colors duration-200">Home</a>
-                        <a href="#services" class="text-white/80 hover:text-white transition-colors duration-200">Services</a>
-                        <a href="#about" class="text-white/80 hover:text-white transition-colors duration-200">About</a>
-                        <a href="#contact" class="text-white/80 hover:text-white transition-colors duration-200">Contact</a>
-                    </div> -->
-                    
-                    <!-- Emergency Contact -->
-                    <!-- <div class="hidden lg:flex items-center space-x-4">
-                        <div class="text-right">
-                            <p class="text-xs text-white/60">Emergency</p>
-                            <p class="text-sm font-semibold text-white">0800 123 456</p>
-                        </div>
-                        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-                            <i class="fas fa-phone text-white"></i>
-                        </div>
-                    </div> -->
-                    
-                    <!-- Mobile Menu Button -->
-                    <button id="mobile-menu-btn" class="md:hidden text-white">
-                        <i class="fas fa-bars text-xl"></i>
-                    </button>
-                </div>
-                
-                <!-- Mobile Menu -->
-                <!-- <div id="mobile-menu" class="md:hidden hidden pb-4">
-                    <div class="flex flex-col space-y-4">
-                        <a href="#home" class="text-white/80 hover:text-white transition-colors duration-200">Home</a>
-                        <a href="#services" class="text-white/80 hover:text-white transition-colors duration-200">Services</a>
-                        <a href="#about" class="text-white/80 hover:text-white transition-colors duration-200">About</a>
-                        <a href="#contact" class="text-white/80 hover:text-white transition-colors duration-200">Contact</a>
-                        <div class="pt-4 border-t border-white/20">
-                            <p class="text-sm text-white/60">Emergency: <span class="font-semibold text-white">0800 123 456</span></p>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </nav>
+        <!-- Header at the top -->
+        <div class="text-center mb-6 mt-6 px-4">
+            <h1 class="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-2 drop-shadow-lg flex flex-col sm:flex-row justify-center items-center gap-2">
+                <i class="fas fa-car-burst text-3xl sm:text-5xl md:text-7xl mr-0 sm:mr-3 text-white"></i>
+                <span>Hamza Assistance</span>
+            </h1>
+            <p class="text-base sm:text-lg text-white/90 drop-shadow-md">Your emergency lifeline on the road.</p>
+        </div>
 
         <!-- Main Content -->
         <main class="relative z-10 flex-1">
@@ -252,7 +203,7 @@
                                 <textarea id="userInfo" name="userInfo" required rows="4" class="w-full bg-white/20 border border-white/30 rounded-lg px-4 py-2.5 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-white/50" placeholder="Paste your information here:&#10;Full Name: [Your Name]&#10;Car Model: [Your Car]&#10;Phone: [Your Phone]&#10;Location: [Your Location]"></textarea>
                             </div>
                             <div>
-                                <label for="photo" class="block text-sm font-medium text-white/90 mb-1">Upload Photo</label>
+                                    <label class="block text-sm font-medium text-white/90 mb-1">Upload Photo</label>
                                 <div class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-white/30 border-dashed rounded-lg bg-white/10">
                                     <div class="space-y-1 text-center">
                                         <i class="fas fa-camera-retro text-4xl text-white/60"></i>
@@ -665,13 +616,7 @@
             const photoUpload = document.getElementById('photo-upload');
             const fileNameDisplay = document.getElementById('file-name');
 
-            // Mobile menu functionality
-            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
-
-            mobileMenuBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-            });
+            // ...existing code...
 
             // API Helper Functions
             async function apiCall(endpoint, options = {}) {

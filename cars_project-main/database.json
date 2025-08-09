@@ -41,22 +41,6 @@
       "updatedAt": "2025-07-28T23:25:20.171Z"
     },
     {
-      "id": 6,
-      "userInfo": "ASSIA OUBELLA \r\nAUDI\r\n06102483930\r\nCANADA",
-      "imageUrl": "/uploads/photo-1753745092338-149580417.jpg",
-      "status": "In Progress",
-      "createdAt": "2025-07-28T23:24:52.367Z",
-      "updatedAt": "2025-07-28T23:26:21.064Z"
-    },
-    {
-      "id": 7,
-      "userInfo": "Ayoun\r\nJeep\r\n0626879092\r\nCASABLANCA",
-      "imageUrl": null,
-      "status": "Submitted",
-      "createdAt": "2025-07-29T22:15:44.793Z",
-      "updatedAt": "2025-07-29T22:15:44.793Z"
-    },
-    {
       "id": 8,
       "userInfo": "AYOUB\r\nJEEP\r\n0626789034\r\nCASABLANCA",
       "imageUrl": "/uploads/photo-1753827385959-731554536.png",
@@ -71,22 +55,6 @@
       "status": "Submitted",
       "createdAt": "2025-08-01T23:33:51.176Z",
       "updatedAt": "2025-08-01T23:33:51.176Z"
-    },
-    {
-      "id": 10,
-      "userInfo": "x",
-      "imageUrl": null,
-      "status": "Submitted",
-      "createdAt": "2025-08-01T23:41:29.380Z",
-      "updatedAt": "2025-08-01T23:41:29.380Z"
-    },
-    {
-      "id": 11,
-      "userInfo": "vsd",
-      "imageUrl": null,
-      "status": "Submitted",
-      "createdAt": "2025-08-02T00:10:36.206Z",
-      "updatedAt": "2025-08-02T00:10:36.206Z"
     }
   ],
   "operators": [
@@ -315,20 +283,12 @@
       "createdAt": "2025-08-02T00:15:53.915Z"
     },
     {
-      "id": 12,
+      "id": 14,
       "name": "oubella assia",
-      "phone": "0632172321",
-      "email": "",
+      "phone": "0610472353",
+      "email": "assia.ou26@gmail.com",
       "role": "mechanic",
-      "createdAt": "2025-08-02T00:20:08.007Z"
-    },
-    {
-      "id": 13,
-      "name": "oubella assia",
-      "phone": "0632172321",
-      "email": "",
-      "role": "mechanic",
-      "createdAt": "2025-08-02T00:20:23.304Z"
+      "createdAt": "2025-08-09T11:18:47.667Z"
     }
   ]
 }
